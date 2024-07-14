@@ -21,9 +21,9 @@ The Mobile Phone Pricing Model aims to develop a predictive model that estimates
  Our methodology involves the following key steps:
 - Data Exploration
 - Loaded and examined the dataset to understand its structure, data types, and value ranges
-- Data Preprocessing under measure the  Addressed missing values, outliers, and inconsistencies *
+- Data Preprocessing under measure the  Addressed missing values, outliers, and inconsistencies
 - Converted categorical variables into numerical formats using one-hot encoding
-- Feature Extraction * Identified the most relevant features using: + Statistical methods (correlation analysis) + Visualizations + Feature importance techniques (feature selection, dimensionality reduction)
+- Feature Extraction: Identified the most relevant features using: Statistical methods (correlation analysis),Visualizations,Feature importance techniques (feature selection, dimensionality reduction)
   
 5) Model Building :-
   
