@@ -35,4 +35,31 @@ The Mobile Phone Pricing Model aims to develop a predictive model that estimates
 6) Report and Visualization: Created a comprehensive report or presentation summarizing findings + Including visualizations and insights related to feature importance and their impact on price prediction
 
 7) Recommendations  Provided strategic recommendations to the organization based on the identified influential features, aiding in refining pricing strategies and marketing decisions
-  
+
+8) Data Visualization
+    Highly correlated Heatmap Visualization
+ ![image](https://github.com/user-attachments/assets/872d0138-1b4b-4cbb-b32b-4e7116fa30a6)
+
+9) Multivariate Analysis :
+![image](https://github.com/user-attachments/assets/4df2db07-9c7c-48f3-97d9-63df9aeb3e45)
+
+  In summary, the chart suggests that memory and RAM are the most important features affecting the sale price of mobile phones. Other features like battery capacity, AI lens, and mobile height have much less influence on the price. This information can be useful for feature selection in the model building process, focusing more on memory and RAM for price prediction.
+
+10) show relation between RAM vs. mobile SalePrice
+
+![image](https://github.com/user-attachments/assets/c5698936-11ab-400c-824f-183800eb6b25)
+
+Distribution:
+There is a noticeable clustering of phones with 2GB, 3GB, 4GB, 6GB, and 8GB of RAM.
+Phones with lower RAM (2GB to 4GB) tend to have sale prices concentrated between 5,000 and 15,000.
+Phones with higher RAM (6GB and 8GB) have sale prices that spread across a wider range, from around 10,000 to 30,000
+
+11) Number of mobile phone Memory vs. mobile phones SalePrice
+
+![image](https://github.com/user-attachments/assets/faf3e61e-6ca2-4f2b-adc7-3a19f2821aef)
+
+Distribution:
+There is a clustering of phones with memory sizes at 32GB, 64GB, 128GB, 256GB, etc.
+Phones with lower memory (32GB and 64GB) tend to have sale prices concentrated between 5,000 and 20,000.
+Phones with higher memory (128GB and above) have sale prices that spread across a wider range, from around 10,000 to 30,000.
+
