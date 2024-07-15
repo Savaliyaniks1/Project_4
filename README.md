@@ -34,5 +34,5 @@ The Mobile Phone Pricing Model aims to develop a predictive model that estimates
 
 6) Report and Visualization: Created a comprehensive report or presentation summarizing findings + Including visualizations and insights related to feature importance and their impact on price prediction
 
-7) Recommendations * Provided strategic recommendations to the organization based on the identified influential features, aiding in refining pricing strategies and marketing decisions
+7) Recommendations  Provided strategic recommendations to the organization based on the identified influential features, aiding in refining pricing strategies and marketing decisions
   
