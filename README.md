@@ -63,3 +63,45 @@ There is a clustering of phones with memory sizes at 32GB, 64GB, 128GB, 256GB, e
 Phones with lower memory (32GB and 64GB) tend to have sale prices concentrated between 5,000 and 20,000.
 Phones with higher memory (128GB and above) have sale prices that spread across a wider range, from around 10,000 to 30,000.
 
+12)  Feature Importance using a Machine Learning Model
+
+![image](https://github.com/user-attachments/assets/fc5871c6-77ac-45ec-9e19-88e4ab5ed105)
+
+Memory is the most important feature, with a significantly higher importance score compared to others.
+
+Battery and RAM are the second and third most important features, respectively. Mobile Height also shows a notable contribution.
+
+The features related to camera specifications, including Front Camera_0MP, Front Camera_5MP, Front Camera_12MP, Front Camera_16MP, and Rear Camera_50MP, have varying degrees of importance, but generally lower than Memory, Battery, and RAM.
+
+Processor (Dimensity 1080, Octa Core) has the least importance among the top 10 features.
+
+13) Dimensionality Reduction Using PCA
+
+![image](https://github.com/user-attachments/assets/86336b4f-313d-4187-b93c-235b145d60a7)
+
+The plot shows a line with points indicating that the explained variance increases as more principal components are added.
+
+The relationship appears to be linear, suggesting that each additional principal component contributes a similar amount of variance.
+
+14) Random Forest Datavisualization
+
+![image](https://github.com/user-attachments/assets/a5ecca30-def5-43ea-91a6-142f4fc4dd39)
+
+15) Decision tree data visualization
+
+![image](https://github.com/user-attachments/assets/015010ca-8b74-4d40-99e4-035115fb4314)
+
+16) Linear Regression data visualization
+
+![image](https://github.com/user-attachments/assets/f57e1c11-3639-4c15-8023-3f9efeaf019e)
+
+Analysis:
+Among the three models, the Random Forest model has the highest R2 score (0.9152), indicating that it explains the variance in the data the best. Both the Decision Tree and Random Forest models have significantly higher R2 scores compared to the Linear Regression model, suggesting they fit the data better in terms of explaining its variability.
+
+In terms of the mean absolute error (MAE) and root mean squared error (RMSE), lower values indicate better performance. Here, the Decision Tree model has the lowest MAE (987.55) and RMSE (2359.13), which means it has the least average error and deviation from the actual values among the three models.
+
+Conclusion
+Best Fit Model: Random Forest
+The higher R² score and lower RMSE indicate that the Random Forest model generally performs better in terms of explaining variance and overall prediction accuracy, even though its MAE is higher.
+
+
